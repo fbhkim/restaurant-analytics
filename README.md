@@ -41,7 +41,7 @@ docker-compose up -d
 
 - **Frontend**: React + TypeScript + Vite + Tailwind CSS + Chart.js
 - **Backend**: Python + FastAPI + SQLAlchemy + Pydantic
-- **Banco**: PostgreSQL + PostGIS (geolocalização)
+- **Banco**: PostgreSQL com coordenadas latitude/longitude
 - **Infraestrutura**: Docker + Docker Compose
 
 ### Estrutura do Projeto
@@ -52,8 +52,7 @@ restaurant-analytics/
 ├── backend/                  # FastAPI App
 ├── database/                # Configuração do DB
 ├── docker-compose.yml      # Orquestração dos serviços
-├── ARCHITECTURE.md         # Documentação técnica detalhada
-└── DEMO_SCRIPT.md         # Roteiro do vídeo demo
+└── ARCHITECTURE.md         # Documentação técnica detalhada
 ```
 
 ## 🎨 Funcionalidades Implementadas
@@ -82,19 +81,12 @@ restaurant-analytics/
 ### Setup Rápido
 
 ```bash
-# Instalar dependências (se necessário)
-./setup-frontend.bat  # Windows
-./setup-frontend.sh   # Linux/Mac
-
-# Iniciar aplicação
 docker-compose up -d
 ```
 
 ## 📚 Documentação
 
 - **[ARCHITECTURE.md](./ARCHITECTURE.md)**: Decisões arquiteturais detalhadas
-- **[DEMO_SCRIPT.md](./DEMO_SCRIPT.md)**: Roteiro do vídeo demonstrativo
-- **[DEPENDENCY_FIX.md](./DEPENDENCY_FIX.md)**: Solução para problemas de dependências
 
 ## 🐛 Troubleshooting
 
@@ -143,7 +135,5 @@ Start-Sleep -Seconds 30
 MIT License
 
 ---
-
-**🎬 Vídeo Demo**: [Roteiro completo](./DEMO_SCRIPT.md)
 
 **🏗️ Arquitetura**: [Documentação técnica](./ARCHITECTURE.md)
