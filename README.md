@@ -25,10 +25,6 @@ Resolver as dores de Maria, dona de 3 restaurantes, que precisa responder pergun
 # 1. Suba os serviços
 docker-compose up -d
 
-# 2. Execute script de correção e teste
-.\fix-and-test-top5.bat
-```
-
 **Acesse:**
 
 - Frontend: <http://localhost:3000>
@@ -87,25 +83,6 @@ docker-compose up -d
 ## 📚 Documentação
 
 - **[ARCHITECTURE.md](./ARCHITECTURE.md)**: Decisões arquiteturais detalhadas
-
-## 🐛 Troubleshooting
-
-### Scripts de Correção Automática
-
-**Setup completo e teste:**
-```bash
-.\fix-and-test-top5.bat
-```
-
-**Gerar dados realistas:**
-```bash
-.\generate-realistic-data.bat
-```
-
-**Corrigir problemas de decimal:**
-```bash
-.\fix-decimal-error.bat
-```
 
 ### Problemas Comuns
 
